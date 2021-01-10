@@ -1,7 +1,7 @@
 <template>
   <v-flex xs12>
-    <v-text-field
-      label="Пофлудим?"
+    <v-text-field 
+      label="Сообщение..."
       outline
       v-model="text"
       @keydown.enter="send"

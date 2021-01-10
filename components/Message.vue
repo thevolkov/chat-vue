@@ -62,4 +62,10 @@ p {
   color: #000;
   align-self: flex-end;
 }
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #424242;
+}
 </style>

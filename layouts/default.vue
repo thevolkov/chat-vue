@@ -3,7 +3,7 @@
     <v-navigation-drawer app v-model="drawer" mobile-break-point="650">
       <v-list subheader>
         <v-subheader style="text-transform: uppercase"
-          >Список флудиняшников</v-subheader
+          >Список участников</v-subheader
         >
 
         <v-list-tile v-for="u in users" :key="u.id" @click.prevent>
@@ -25,7 +25,7 @@
       <v-btn icon @click="exit">
         <v-icon>logout</v-icon>
       </v-btn>
-      <v-toolbar-title>ФЛУДИЛЬНЯ: {{ user.room }}</v-toolbar-title>
+      <v-toolbar-title>ЧАТ: {{ user.room }}</v-toolbar-title>
     </v-toolbar>
     <v-content>
       <div style="height: 100%">

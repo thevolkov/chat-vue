@@ -9,7 +9,7 @@
         </v-snackbar>
 
         <v-card-title>
-          <h1 style="text-align: centr">НАША ФЛУДИЛОНЬКА</h1>
+          <h1 style="text-align: centr">ЧАТ by Volkov I.I.</h1>
         </v-card-title>
         <v-card-text>
           <v-form ref="form" v-model="valid" lazy-validation>
@@ -17,14 +17,14 @@
               v-model="name"
               :counter="16"
               :rules="nameRules"
-              label="Имя флудиляльника"
+              label="Имя юзера"
               required
             ></v-text-field>
 
             <v-text-field
               v-model="room"
               :rules="roomRules"
-              label="Название флудилоньки"
+              label="Название комнаты"
               required
             ></v-text-field>
 
@@ -45,7 +45,7 @@ import { mapMutations } from "vuex";
 export default {
   layout: "empty",
   head: {
-    title: "Флудилушка",
+    title: "Войти",
   },
   sockets: {
     connect() {
@@ -62,7 +62,7 @@ export default {
       (v) => (v && v.length <= 16) || "Имя не должно быть длиннее 16 символов",
     ],
     room: "",
-    roomRules: [(v) => !!v || "Введите название флудилушки"],
+    roomRules: [(v) => !!v || "Введите название комнаты"],
   }),
   mounted() {
     const { message } = this.$route.query;
@@ -97,3 +97,8 @@ export default {
 };
 </script>
 
+<style scoped>
+button {
+  margin: 10px 0px;
+}
+</style>

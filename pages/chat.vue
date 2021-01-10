@@ -39,6 +39,7 @@ export default {
 </script>
 
 <style scoped>
+
 .c-wrap {
   height: 100%;
   position: relative;
@@ -64,4 +65,5 @@ export default {
   padding: 1rem;
   overflow-y: auto;
 }
+
 </style>

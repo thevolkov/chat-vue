@@ -1,4 +1,4 @@
-# volkov-chat
+# Чат by Volkov I.I.
 
 > My superb Nuxt.js project
 
