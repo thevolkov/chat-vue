@@ -1,6 +1,8 @@
 # Чат by Volkov I.I.
 
-## Для запуска приложения
+## Fullstack чат на Vue, Socket.io, Nuxt, Vuetify
+
+### Для запуска приложения
 
 Инициализировать проект - npm i
 
