@@ -1,22 +1,11 @@
 # Чат by Volkov I.I.
 
-> My superb Nuxt.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm run install
-
-# serve with hot reload at localhost:3000
+## Для запуска приложения
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+# Сервер запустится по адресу localhost:3000
 
-# generate static project
-$ npm run generate
-```
+- В чате возможно создавать отдельные комнаты для группового чата
+- Чат оповещает о том что юзер зашел или вышел
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+![screenshot](chat-page-1.png)
