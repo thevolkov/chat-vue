@@ -1,5 +1,4 @@
-# Чат by Volkov I.I.
-
+# Чат by Volkov I.I. 📨
 ## Fullstack чат на Vue, Socket.io, Nuxt, Vuetify
 
 ### Для запуска приложения
