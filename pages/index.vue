@@ -4,10 +4,8 @@
       <v-card min-width="400">
         <v-snackbar v-model="snackbar" :timeout="6000" top>
           {{ message }}
-
           <v-btn color="pink" flat @click="snackbar = false"> Закрыть </v-btn>
         </v-snackbar>
-
         <v-card-title>
           <h1 style="text-align: centr">ЧАТ by Volkov I.I.</h1>
         </v-card-title>
@@ -20,14 +18,12 @@
               label="Имя юзера"
               required
             ></v-text-field>
-
             <v-text-field
               v-model="room"
               :rules="roomRules"
               label="Название комнаты"
               required
             ></v-text-field>
-
             <v-btn :disabled="!valid" color="primary" @click="submit">
               Войти
             </v-btn>
@@ -37,8 +33,6 @@
     </v-flex>
   </v-layout>
 </template>
-
-
 
 <script>
 import { mapMutations } from "vuex";
